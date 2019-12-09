@@ -1,3 +1,7 @@
+body {
+font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
 p {
 letter-spacing: 2px;
 }
