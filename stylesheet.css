@@ -5,24 +5,85 @@
 
 }
 
+p{
+letter-spacing: 2px;
+}
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+#navi {
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:70px;
+margin:0;
+padding-top:20px;
+text-align: center;
+background:#4169e1;
+
+
+}
+
+
+.header-list {
+  float: left;
+
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  padding-right:50px;
+
+}
 
 h1 {
   /*線の種類（実線） 太さ 色*/
  color:blue;
 
   border-bottom: solid 3px blue;
+  padding-top: 100px;
+}
+.memu {
+  list-style: none;
+  color: #1e366a;
+  border-top: solid #1e366a 1px;/*上のボーダー*/
+  border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+.choice {
+  padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+ .menu li{
+
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+a {
+  text-decoration: none;
+  color:#fff;
+  font-size: 30px;
+
 }
 img{
- width:50%;
-  height:auto;
-  float:left;
+  width:300px;
+  height:600px;
+
 }
-h4 {
+.pic{
+text-align:center;
+}
+.firstmove {
 padding-top:50px;
 }
 
 .party1 {padding-left: 15px;
-
-
-
 }
