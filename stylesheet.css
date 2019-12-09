@@ -1,0 +1,28 @@
+.title {
+
+
+  /*線の種類（実線） 太さ 色*/
+
+}
+
+
+h1 {
+  /*線の種類（実線） 太さ 色*/
+ color:blue;
+
+  border-bottom: solid 3px blue;
+}
+img{
+  width:100px;
+  height:200px;
+  float:left;
+}
+h4 {
+padding-top:50px;
+}
+
+.party1 {padding-left: 15px;
+
+
+
+}
