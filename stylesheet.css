@@ -4,6 +4,7 @@ font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギ
 
 p {
 letter-spacing: 2px;
+line-height: 50px;
 }
 
 #navi {
