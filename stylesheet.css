@@ -37,7 +37,7 @@ background:#4169e1;
 h1 {
   /*線の種類（実線） 太さ 色*/
  color:blue;
-
+  font-size: 50px;
   border-bottom: solid 3px blue;
   padding-top: 10px;
 }
