@@ -11,7 +11,6 @@ body {
   text-align: center;
 }
 
-
 .choice {
   position: relative;
   padding: .75em 1em .75em 1.5em;
@@ -27,4 +26,81 @@ body {
   height: calc(100% - 1em);
   background-color: #3498db;
   border-radius: 4px;
+}
+
+.balloon1-left {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+  border-radius: 10px;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+}
+
+.balloon1-left p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.balloon1-right {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 15px 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+  border-radius: 10px;
+}
+
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #e0edff;
+}
+
+.balloon1-right p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.ele {
+  font-size: 20px;
+  padding: .25em 0 .25em .75em;
+  border-left: 6px solid #3498db;
+}
+
+
+span {
+  font-weight: bold;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
 }
