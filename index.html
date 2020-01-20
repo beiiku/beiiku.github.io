@@ -1,29 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>beikuのサイト</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div id="navi">
-      <a href="#chapter1">chapter1 選出</a>|
-      <a href="#chapter2">chapter2 プレイング</a>|
-      <a href="#finish" >終わりに</a>
-      </div>
+<html lang="ja">
+ <head>
+   <meta charset="utf-8">
+   <title>Beiku</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+   <a class="navbar-brand" href="#">Beiku</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
 
-<div class="content">
-<div class="contents">
-<h1>ポケモンの基礎</h1>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+       <a class="nav-link" href="#chapter1">Chapter1 選出</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#chapter2">Chapter2 プレイング</a>
+     </li>
+    <li class="nav-item">
+       <a class="nav-link" href="#finish">終わりに</a>
+     </li>
+     </ul>
 
-<p>始めにこのホームページではポケットモンスターのシングルバトルの対戦において基本となる
-ようなことをざっくりとかいていこうと思っています。
-後々に見て、<br>
-「あれ？これはおかしくね？」と思うような部分も多々あると思いますが、初心者講座
+   </div>
+ </nav>
+
+ <div class="container">
+  <div class="jumbotron">
+   <h1>Beikuのサイト</h1>
+   <p>ポケモンの基礎</p>
+   <hr class="my-4">
+   <p>始めにこのホームページではポケットモンスターのシングルバトルの対戦において<br>基本となる
+ようなことをざっくりとかいていこうと思っています。<br>
+後々に見て、
+「あれ？これはおかしくね？」と思うような部分も多々あると思いますが、<br>初心者講座
 という名目なのでご了承ください</p>
+   <button class="btn btn-dark btn-lg">About</button>
+ </div>
+
+ <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">サービス紹介</h5>
+        <p class="card-text">S.Tによるポケモン初心者講座</p>
+        <a href="#" class="btn btn-primary">詳しく見る</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">よくある質問</h5>
+        <p class="card-text">当サイトに寄せられた質問への回答</p>
+        <a href="#" class="btn btn-primary">詳しく見る</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-<h2 class="choice" id="chapter1">chapter1 選出</h2>
+
+
+<div class="contents">
+<h2 class="choice mt-5" id="chapter1">Chapter1 選出</h2>
 <p>
 読んでる方の中には先発のポケモンが止まらなくてそのまま壊滅させられた。<br>
 選出したはいいけど相手のナットレイどうやって倒すんだ？<br>
@@ -81,7 +126,7 @@
 相手の動きを読むというと難しく聞こえるかもしれませんが、そこまで複雑なものではなくポケモンにはテンプレと呼ばれる多くいる型を把握するだけなのでそこまで難しい話ではないです。<br>
 逆に相手が予想外の行動をしたときのケアはしっかりとしないと崩される危険性が高くなってしまいます。
 </p>
-<h3 class="choice" id="chapter2">chapter2 プレイング</h3>
+<h3 class="choice" id="chapter2">Chapter2 プレイング</h3>
 <p>次はざっとした戦い方なんですが、プレイングを記事に起こすことは無理に等しいということでよくつかわれがちなプレイングに関する用語を何種類か紹介したいと思います。</p>
 <p><strong>安定行動</strong>→目先のポケモンに対して一番リスクのないこと、
 又は、目の前と裏のポケモンに対して、通りが良く安定した行動のことを言う<br>
@@ -104,7 +149,44 @@
 
 
 </div>
-</div>
 
-  </body>
+
+
+
+
+
+<h1 class="mt-5">お問い合わせ</h1>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">メールアドレス</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">種類</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>サービスについて</option>
+      <option>不具合について</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">内容</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">利用規約に同意します。</label>
+  </div>
+  <button type="submit" class="btn btn-primary mb-3">送信する</button>
+</form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
